@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-right: 0px;
+    color: #444444;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  border-top: 1px solid #909090;
+  border-bottom: 1px solid #909090;
+  background-color: white;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45vh;
+}
+
+nav ul li{  
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0662b9;
+}
+
+.top h1 {
+    margin-left: 91vh;
+    margin-top: 50px;
+    text-transform: uppercase;
+} 
+
+video {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 240px;
+    z-index: -1;
+}
+
+.txt-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-video h1{
+    color: white;
+    margin-top: 350px;
+    margin-left: 530px;
+    text-transform: uppercase;
+}
+
+.txt-video h3{
+    color: white;
+    margin-top: 0px;
+    margin-left: 440px;
+    text-transform: uppercase;
+}
+
+#phrase {
+    color: white;
+    margin-top: -15px;
+    margin-left: 500px;
+}
+
+/* Features */ 
+.fonctionnalite {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 90px;
+    margin-right: 190px;
+}
+
+.fonctionnalite i{
+   font-size: 50px;
+   margin-left: 190px;
+}
+
+.gauche, .droite {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.gauche h2, .droite h2 {
+    margin-left: 270px;
+    margin-top: -40px;
+    font-size: 30px;
+}
+
+.gauche p, .droite p {
+    margin-left: 195px;
+}
+
+.activite img {
+    margin-top: 150px;
+    width: 80%;
+    height: 30%;
+    margin-left: 195px;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+/* Activité */
+.container1, .container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 87px;
+    padding-right: 77px;
+}
+
+.box1 img, .box2 img {
+    padding-top: 500px;
+    margin-left: -10px;
+}
+.box1 h2, .box2 h2 {
+    margin-top: -120px;
+    margin-left: 140px;
+}
+
+.box1 p, .box2 p {
+    margin-left: 120px;
+}
+
+.box3 img, .box4 img {
+    padding-top: 90px;
+}
+
+.box3 h2, .box4 h2 {
+    margin-top: -100px;
+    margin-left: 220px;
+}
+
+.box3 p, .box4 p {
+    margin-left: 220px;
+}
+
+footer h3{
+    margin-top: 70px;
+    margin-left: 95px;
+}
+
+footer i {
+    font-size: 20px;
+    margin-left: 1300px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #444444;
+}
+
+.cadre1 {
+    height: 220px;
+    width: 670px;
+    background-color: white;
+    border : 1px solid #DDDDDD;
+    z-index: -1;
+    margin-top: 480px;
+    margin-left: -790px;
+}
+
+.cadre2 {
+    height: 220px;
+    width: 600px;
+    background-color: white;
+    border : 1px solid #DDDDDD;
+    z-index: -1;
+    margin-top: 480px;
+    margin-left: -910px;
+}
+
+
